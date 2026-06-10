@@ -1,0 +1,9 @@
+{
+  "private": true,
+  "scripts": {
+    "dev": "npm --prefix=Alif-portfolio-website run dev",
+    "build": "cd Alif-portfolio-website && npm ci && npm run build",
+    "lint": "npm --prefix=Alif-portfolio-website run lint",
+    "preview": "npm --prefix=Alif-portfolio-website run preview"
+  }
+}

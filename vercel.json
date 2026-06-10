@@ -1,0 +1,9 @@
+{
+  "buildCommand": "cd Alif-portfolio-website && npm ci && npm run build",
+  "outputDirectory": "Alif-portfolio-website/dist",
+  "installCommand": "npm install",
+  "framework": null,
+  "rewrites": [
+    { "source": "/(.*)", "destination": "/index.html" }
+  ]
+}
