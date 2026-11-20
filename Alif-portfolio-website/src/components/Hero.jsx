@@ -1,9 +1,16 @@
-import React, { useEffect, useRef } from 'react';
+import React, { useEffect, useRef, useState } from 'react';
 import { FolderOpen, Download } from 'lucide-react';
 
 export default function Hero() {
   const typedRef = useRef(null);
   const canvasRef = useRef(null);
+  const introVideoRef = useRef(null);
+
+  useEffect(() => {
+    if (introVideoRef.current) {
+      introVideoRef.current.volume = 1;
+    }
+  }, []);
 
   useEffect(() => {
     const typedElement = typedRef.current;
@@ -208,7 +215,19 @@ export default function Hero() {
           <div className="hero-image-wrapper">
             <div className="hero-image-container">
               <div className="hero-image-glow"></div>
-              <img src="/assets/profile.jpg" alt="Md Alif Hossain - Full-Stack Web Developer" className="hero-image" />
+              <video
+                ref={introVideoRef}
+                className="hero-intro-video"
+                src="/featured-video.mp4"
+                poster="/assets/profile.jpg"
+                controls
+                playsInline
+                preload="metadata"
+                muted={false}
+                aria-label="Introductory video about Md Alif Hossain"
+              >
+                Your browser does not support HTML video.
+              </video>
 
               <div className="hero-float-badge badge-1">
                 <span className="badge-icon">⚛️</span>

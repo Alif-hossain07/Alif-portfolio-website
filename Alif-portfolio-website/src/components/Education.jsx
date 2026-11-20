@@ -11,7 +11,7 @@ export default function Education() {
 
         <div className="timeline">
           <div className="timeline-item reveal">
-            <div className="timeline-date">2025 — 2029 (Expected)</div>
+            <div className="timeline-date">2025 — Ongoing</div>
             <div className="timeline-dot"></div>
             <div className="timeline-card glass-card">
               <h4>Bachelor of Science in Computer Science & Engineering</h4>
@@ -28,12 +28,24 @@ export default function Education() {
           </div>
 
           <div className="timeline-item reveal">
-            <div className="timeline-date"> 2022</div>
+            <div className="timeline-date">2022</div>
             <div className="timeline-dot"></div>
             <div className="timeline-card glass-card">
               <h4>Higher Secondary Certificate (HSC)</h4>
-              <div className="company">Government Rajendra College,Faridpur </div>
-                <div className="timeline-tags">
+              <div className="company">Government Rajendra College, Faridpur</div>
+              <div className="timeline-tags">
+                <span className="timeline-tag">Science Division</span>
+              </div>
+            </div>
+          </div>
+
+          <div className="timeline-item reveal">
+            <div className="timeline-date">2020</div>
+            <div className="timeline-dot"></div>
+            <div className="timeline-card glass-card">
+              <h4>Secondary School Certificate (SSC)</h4>
+              <div className="company">Faridpur Zilla School</div>
+              <div className="timeline-tags">
                 <span className="timeline-tag">Science Division</span>
               </div>
             </div>

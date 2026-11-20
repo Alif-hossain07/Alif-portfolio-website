@@ -126,10 +126,6 @@ export default function About() {
             <div className="stat-label">Projects Done</div>
           </div>
           <div className="stat-card">
-            <div className="stat-number" data-count="2">0</div>
-            <div className="stat-label">Years Experience</div>
-          </div>
-          <div className="stat-card">
             <div className="stat-number" data-count="15">0</div>
             <div className="stat-label">Happy Clients</div>
           </div>

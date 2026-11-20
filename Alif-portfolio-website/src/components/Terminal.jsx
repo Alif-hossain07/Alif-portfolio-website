@@ -5,7 +5,7 @@ const COMMANDS = {
   help: 'Available commands:\n  about    - read about me\n  skills   - list my technical skills\n  projects - view top projects\n  contact  - get my contact info\n  clear    - clear the terminal',
   about: 'I am Md Alif Hossain, a passionate Full-Stack Web Developer from Bangladesh. I love crafting clean code and pixel-perfect interfaces.',
   skills: 'Tech Stack:\n- Frontend: React, Next.js, HTML/CSS, Tailwind\n- Backend: Node.js, Express, Python, Django\n- Databases: MongoDB, PostgreSQL',
-  projects: '1. ShopVerse (E-Commerce)\n2. TaskFlow (Project Management)\n3. DevNotes (Developer Blog)',
+  projects: 'Jhiltuly Sports Association — https://jhiltulysa.vercel.app/',
   contact: 'Email: alifhossain72003@gmail.com\nLinkedIn: linkedin.com/in/md-alif-hossain-a00537345\nGitHub: github.com/alifhossainmia',
   sudo: 'Permission denied. Nice try though! ;)'
 };

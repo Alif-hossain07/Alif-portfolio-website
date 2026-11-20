@@ -43,7 +43,6 @@ export default function Navbar() {
     { id: 'skills', label: 'Skills' },
     { id: 'projects', label: 'Projects' },
     { id: 'education', label: 'Education' },
-    { id: 'experience', label: 'Experience' },
     { id: 'services', label: 'Services' },
   ];
 
